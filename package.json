@@ -1,0 +1,28 @@
+{
+  "name": "bd-kitchen",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SubhashisBD/BhanjDeo-Kitchen.git"
+  },
+  "keywords": [
+    "Food"
+  ],
+  "author": "SubhashisBD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SubhashisBD/BhanjDeo-Kitchen/issues"
+  },
+  "homepage": "https://github.com/SubhashisBD/BhanjDeo-Kitchen#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0"
+  }
+}
