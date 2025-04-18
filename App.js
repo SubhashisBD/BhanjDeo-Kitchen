@@ -35,7 +35,7 @@ const Header = () =>{
     )
 };
 
-const RestaurantCard =(  )=>{
+const RestaurantCard =( )=>{
     return(
         <div className="res-card">
             <img className="res-logo"src="https://b.zmtcdn.com/data/pictures/4/21133754/a2c77aac050988d6597f341bc8bc4798_featured_v2.jpg?output-format=webp"/>
@@ -68,4 +68,4 @@ const AppLayout =() => {
     )
 }
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout/>)
+root.render(<AppLayout/>) 
